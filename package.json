@@ -1,0 +1,24 @@
+{
+  "name": "sirus-banner",
+  "version": "1.0.0",
+  "description": "discord bot for display sirus banner",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js",
+    "create": "npx tsc && node dist/createCommands.js",
+    "delete": "npx tsc && node dist/deleteCommands.js",
+    "format": "prettier --config .prettierrc src/**/*.ts --write"
+  },
+  "author": "Softgod",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
